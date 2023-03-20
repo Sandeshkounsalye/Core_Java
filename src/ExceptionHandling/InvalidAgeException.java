@@ -1,6 +1,6 @@
 package ExceptionHandling;
 
-public class InvalidAgeException extends Exception {
+public class   InvalidAgeException extends Exception {
     public InvalidAgeException() {
     }
 

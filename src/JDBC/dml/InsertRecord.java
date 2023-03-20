@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class  InsertRecord {
+public class    InsertRecord {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //1.load the driver and register
         Class.forName("com.mysql.cj.jdbc.Driver");
