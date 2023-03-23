@@ -5,6 +5,8 @@ public class TestPanCard {
         PanCardServiceProvider obj=new PanCardServiceProvider() {
             @Override
             public boolean validatePanNumber(String panNumber) {
+                //{quani-fier}
+                // regEX -regal expression
                 String regEX="[A-Z]{5}[0-9]{4}[A-Z]{1}";
                 if (panNumber.matches(regEX)){
                     return true;
