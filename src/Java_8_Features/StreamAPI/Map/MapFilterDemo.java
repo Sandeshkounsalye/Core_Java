@@ -1,6 +1,5 @@
 package Java_8_Features.StreamAPI.Map;
 
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -10,13 +9,11 @@ class Employee{
     int empid;
     String empname;
     int salary;
-
     public Employee(int empid, String empname, int salary) {
         this.empid = empid;
         this.empname = empname;
         this.salary = salary;
     }
-
     @Override
     public String toString() {
         return "Employee{" +
@@ -26,10 +23,10 @@ class Employee{
                 '}';
     }
 }
-
 public class MapFilterDemo {
     public static void main(String[] args) {
      //Collection --> stream ---> Filter ---> map ---> collect
+
         List<Employee> employeeList=new ArrayList<Employee>();
         employeeList.add(new Employee(11,"Alex",10000));
         employeeList.add(new Employee(19,"David",20000));
@@ -44,12 +41,5 @@ public class MapFilterDemo {
         Comparator<Employee> productComparator=(p1,p2)->p1.empid-p2.empid;
          //  employeeList.stream().sorted(productComparator).collect(Collectors.toList()).forEach(e->System.out.println(e.empid + " "+e.empname+ " "+e.salary));
        employeeList.stream().sorted(productComparator).collect(Collectors.toList()).forEach(System.out::println);
-
-
-
-
-
     }
-
-
 }
