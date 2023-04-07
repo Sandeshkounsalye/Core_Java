@@ -15,5 +15,8 @@ public class AddElement {
         }
         newarr[n]=element;
         System.out.println(Arrays.toString(newarr));
+        for (int a:arr){
+            System.out.println(a);
+        }
     }
 }

@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class MapDemo1 {
     public static void main(String[] args) {
         //Without using Stream concept
+        //map - is used for operation on collection
         List<String> vehicles= Arrays.asList("bus","car","bike","truck","train");
         List <String> vehiclesListinUppercase=new ArrayList<String>();
 //        for (String name:vehicles) {

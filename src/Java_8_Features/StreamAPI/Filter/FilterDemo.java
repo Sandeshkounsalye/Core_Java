@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 public class FilterDemo {
     public static void main(String[] args) {
 
+        //filter - for apply condition
+
 //        List<Integer> numberList=new ArrayList<>();
 //        numberList.add(10);
 //        numberList.add(14);
