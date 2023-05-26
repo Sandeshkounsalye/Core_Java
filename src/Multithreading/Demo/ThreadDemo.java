@@ -10,7 +10,7 @@ public class ThreadDemo implements Runnable {
         System.out.println("-------");
     }
     public static void main(String[] args) {
-        Thread thread=new Thread();
+        Thread1 thread=new Thread1();
         thread.start();
     }
 }

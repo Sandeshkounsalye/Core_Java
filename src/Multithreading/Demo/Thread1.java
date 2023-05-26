@@ -1,6 +1,6 @@
 package Multithreading.Demo;
 
-public class Thread {
+public class Thread1 {
 
     public void start() {
     }
