@@ -2,7 +2,7 @@ package Multithreading.Demo;
 
 public class MyThread extends Thread {
    public void run(){
-        for (int i=1;i<=10;i++){
+        for (int i=1;i<=100;i++){
             System.out.println(i);
         }
     }
@@ -13,6 +13,7 @@ class ThredDemo1{
         MyThread th1=new MyThread();
         MyThread th2=new MyThread();
         th1.start();
+        th2.start();
         th2.start();
 
     }
