@@ -14,6 +14,7 @@ public class CheackEqual {
 
         int num = arr[3];
         System.out.println(num);
+
     }
 
 }
