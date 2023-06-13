@@ -19,5 +19,7 @@ public class Main {
         Abstract_Class abstract_class1=new ConcreteClass();
         abstract_class1.m4();
         abstract_class1.m5();
+        abstract_class1.m8();
+
     }
 }

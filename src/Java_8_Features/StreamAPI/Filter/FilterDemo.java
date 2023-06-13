@@ -33,5 +33,17 @@ public class FilterDemo {
         //Here we are not collecting the data, direct printing(forEach)
         numberList.stream().filter(n->n%2==0).forEach(System.out::println);
 
+        System.out.println("***********");
+
+        List<Integer> list1= Arrays.asList(10,20,30,40,50);
+
+        list1.stream().map(n->n/4).collect(Collectors.toList()).forEach(System.out::println);
+        System.out.println("++++++++++++++++");
+
+        list1.stream().filter(n->n>30).collect(Collectors.toList()).forEach(System.out::println);
+
+        System.out.println("~~~~~~~~~~~~~~");
+
+        //Stream.iterate(1,n->n+1).filter(e->e%5==0).limit(10).forEach(System.out::println);
     }
 }

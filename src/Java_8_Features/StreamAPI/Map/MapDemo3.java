@@ -21,5 +21,6 @@ public class MapDemo3 {
 
         numberList.stream().map(num->num*3).forEach(System.out::println);
 
+
     }
 }

@@ -8,4 +8,5 @@ public class ConcreteClass extends Abstract_Class {
         System.out.println("Abs-");
     }
 
+
 }

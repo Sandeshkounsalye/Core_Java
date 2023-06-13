@@ -6,4 +6,8 @@ public abstract class Abstract_Class {
     void m5(){
         System.out.println("Simple Method");
     }
+
+    public final void m8() {
+        System.out.println("++++++++++++");
+    }
 }
