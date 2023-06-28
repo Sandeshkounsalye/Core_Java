@@ -4,6 +4,7 @@ public class FrequencyOfCharacter {
     public static void main(String[] args) {
         String str="Hello here sandesh";
         int count=0;
+
         char character='e';
         System.out.println(str.length());
 

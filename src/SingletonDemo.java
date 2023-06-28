@@ -4,6 +4,7 @@ public class SingletonDemo {
     public SingletonDemo(){
     }
 
+    //constructor private
     public static SingletonDemo getInstance() {
         if (singletonDemo==null){
             singletonDemo=new SingletonDemo();

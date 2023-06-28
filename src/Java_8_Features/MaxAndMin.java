@@ -1,7 +1,10 @@
 package Java_8_Features;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class MaxAndMin {
     public static void main(String[] args) {
@@ -15,6 +18,10 @@ public class MaxAndMin {
         MaxAndMin m=new MaxAndMin();
         m.hashCode();
 
+        Set<Integer> list2=new HashSet<>(list);
+        list2.stream().forEach(System.out::println);
+
+        list.stream().distinct().collect(Collectors.toList());
 
 
 
