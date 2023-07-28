@@ -15,12 +15,30 @@ public class CountVolvesString {
                     st.charAt(i)=='o'|| st.charAt(i)=='u'||st.charAt(i)==' '){
                 count++;
             }
-            if (st.charAt(i)=='i'){
-                collect++;
-            }
         }
         System.out.println(count);
-        System.out.println(collect);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         System.out.println("Repeate a: ");
         for (int i = 0; i < st.length() ; i++) {

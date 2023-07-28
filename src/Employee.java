@@ -1,9 +1,13 @@
 public final class Employee {
-
+     //The instance variable of the class is final
     private String panNumber;
+
+
     public Employee(String panNumber){
         this.panNumber=panNumber;
     }
+
+    //There is no setter methods
     public String getPancardNumber(){
             return panNumber;
     }

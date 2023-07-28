@@ -3,7 +3,7 @@ package JDBC.CRUD;
 import java.sql.*;
 import java.util.Scanner;
 
-public class CrudJdbc {
+public class  CrudJdbc {
     public static void main(String[] args) throws SQLException {
         Scanner sc = new Scanner(System.in);
 
@@ -79,8 +79,9 @@ public class CrudJdbc {
                     int id=sc.nextInt();
                     Statement statement2=connnection.createStatement();
                     statement2.execute("delete from product where id='"+id+"'");
-
+                    System.out.println("========================");
                     System.out.println("Record Deleted Successfully");
+                    System.out.println("========================");
                     break;
 
                 case 5:

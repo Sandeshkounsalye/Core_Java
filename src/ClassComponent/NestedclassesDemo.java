@@ -1,6 +1,6 @@
 package ClassComponent;
 
-public class NestedclassesDemo {
+public class    NestedclassesDemo {
     class inner{
         int a=10;
         static int m=20;

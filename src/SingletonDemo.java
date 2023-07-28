@@ -18,5 +18,8 @@ public class SingletonDemo {
 
         SingletonDemo s2=SingletonDemo.getInstance();
         System.out.println(s2.hashCode());
+
+        SingletonDemo s3=SingletonDemo.getInstance();
+        System.out.println(s3.hashCode() );
     }
 }

@@ -16,5 +16,15 @@ public class Demo {
        // a.stream().toList();
 
 
+        String str="Hello world java bye";
+
+        String[] word=str.split("\\s");
+
+        for (int i = word.length; i >= 0; i--) {
+
+
+        }
+
+
     }
 }
